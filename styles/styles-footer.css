@@ -1,0 +1,8 @@
+.footer {
+    background-color: #2c2930;
+    min-height: 400px;
+}
+
+.footer__text {
+    color: white;
+}
