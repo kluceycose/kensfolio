@@ -1,8 +1,47 @@
 .footer {
     background-color: #2c2930;
-    min-height: 400px;
+    padding: 20px;
+    color: white;
+    text-align: center;
 }
 
-.footer__text {
+.footer h4,
+.footer p {
+    margin: 0;
+}
+
+.footer__item {
+    margin-bottom: 1.5rem;
+}
+
+.footer-icon-link {
     color: white;
+}
+
+.footer-icon-link:hover,
+.footer-icon-link:focus {
+    opacity: .75;
+}
+
+.footer-icon-link:hover {
+    cursor: pointer;
+}
+
+.footer-4__item + .footer-4__item {
+    margin-left: .25em;
+}
+
+@media (min-width: 800px) {
+
+    .footer {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .footer-4 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 }

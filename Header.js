@@ -8,7 +8,7 @@ function NavMenu(props){
                 <span class="hamburger"></span>
             </button>
             <a onClick={()=> props.setShow("Home")} class="nav__link">
-                <img src={logo1} alt="Kenneth Lucey-Cose" class="logo"/>
+                <img src={logo1} alt="Kenneth Lucey-Cose" class="logo nav__link"/>
             </a>
             <nav class="nav">
                 <ul class="nav__list row">
