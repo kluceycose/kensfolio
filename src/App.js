@@ -1,16 +1,23 @@
 import React, { useState } from 'react';
-import ReactDOM from 'react-dom';
+import WebFont from 'webfontloader';
 // import About from "./About.js";
 // import Contact from "./Contact.js"
 import Footer from "./Footer.js";
-import Home from "./Home.js";
+import Home from "./pages/Home.js";
 import Header from "./Header.js";
 // import Portfolio from "./Portfolio.js";
 // import Resume from "./Resume.js";
-
+import './styles/styles-general.css';
+import './styles/styles-background.css';
 
 function App(){
     const [show, setShow] = useState("Home");
+
+    WebFont.load({
+        google: {
+            families: ['Roboto: 400,900', 'Playfair Display: 500,900']
+        }
+    })
 
     let content;
     switch(show){
@@ -45,4 +52,4 @@ function App(){
     </div>;
 }
 
-ReactDOM.render(<App/>, document.getElementById("root"));
+export default App;
