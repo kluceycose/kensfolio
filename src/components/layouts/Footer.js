@@ -23,7 +23,7 @@ function Footer(){
                 <a href="https://www.github.com/kluceycose" className="footer-icon-link">
                     <FaGithubSquare className="footer-4__item"/>
                 </a>
-                <a href="https://drive.google.com/file/d/1oWmW6b938_0jvvgnOJtN-7sof2zTqsXn/view?usp=sharing" className="footer-icon-link">
+                <a href="https://drive.google.com/file/d/1NN5HUtPPQOgaYK8hSA-526znr3yd29Xa/view?usp=sharing" className="footer-icon-link">
                     <FaFileAlt />
                 </a>
             </IconContext.Provider>
