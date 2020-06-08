@@ -1,45 +1,32 @@
 import React, { useState } from 'react';
 import WebFont from 'webfontloader';
-// import About from "./About.js";
-// import Contact from "./Contact.js"
-import Footer from "./Footer.js";
-import Home from "./pages/Home.js";
-import Header from "./Header.js";
-// import Portfolio from "./Portfolio.js";
-// import Resume from "./Resume.js";
-import './styles/styles-general.css';
-import './styles/styles-background.css';
+import { Header, Footer } from "./components/layouts";
+import { About, Banner, Intro, Portfolio } from "./components/pages";
+import './components/styles/styles-background.css';
+import './components/styles/styles.scss';
 
 function App(){
-    const [show, setShow] = useState("Home");
+    const [show, setShow] = useState("Portfolio");
 
     WebFont.load({
         google: {
-            families: ['Roboto: 400,900', 'Playfair Display: 500,900']
+            families: ['Roboto: 400,500,600,700,800,900', 'Comfortaa', 'Share Tech Mono']
         }
     })
 
     let content;
     switch(show){
-        // case "About":
-        //     content = <About />;
-        //     break;
-        
-        // case "Contact":
-        //     content = <Contact />;
-        //     break;
-
-        case "Home":
-            content = <Home />;
+        case "About":
+            content = <About />;
             break;
 
-        // case "Portfolio":
-        //     content = <Portfolio />;
-        //     break;
-        
-        // case "Resume":
-        //     content = <Resume />;
-        //     break;
+        case "Intro":
+            content = <Intro />;
+            break;
+
+        case "Portfolio":
+            content = <Portfolio />;
+            break;
 
         default:
             content = <h3>{show} isn't implemented yet.</h3>;
@@ -47,7 +34,10 @@ function App(){
 
     return <div>
         <Header setShow={setShow.bind(this)}/>
-        {content}
+        <div class="row content container">
+            <Banner />
+            {content}
+        </div>
         <Footer/>
     </div>;
 }

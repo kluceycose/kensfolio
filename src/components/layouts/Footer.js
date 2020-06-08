@@ -1,7 +1,6 @@
 import React from 'react';
 import { IconContext } from "react-icons";
 import { FaLinkedin, FaGithubSquare, FaFileAlt } from 'react-icons/fa';
-import './styles/styles-footer.css';
 
 function Footer(){
     return <footer className="footer">
