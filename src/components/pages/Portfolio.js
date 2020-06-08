@@ -1,5 +1,5 @@
 import React from 'react';
-import { Experience, Projects, Skills } from "./";
+import { Education, Experience, Projects, Skills } from "./";
 
 function Portfolio() {
 
@@ -9,6 +9,7 @@ function Portfolio() {
         </div>
         <Skills />
         <Projects />
+        <Education />
         <Experience />
         
     </div>;

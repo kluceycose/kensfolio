@@ -184,6 +184,10 @@ body{
     border-top: .2em dashed $accent-color;
 }
 
+.about-title {
+    text-align: center;
+}
+
 .banner {
     background-color: $accent-color;
     padding: 1em 0;
@@ -199,6 +203,12 @@ body{
     border-bottom: .1rem solid $divider-color;
 }
 
+.ed-title {
+    text-align: center;
+    border-bottom: .2rem double $accent-color;
+    padding-bottom: .5rem;
+}
+
 .exp-title {
     text-align: center;
     border-bottom: .2rem double $accent-color;
@@ -207,6 +217,10 @@ body{
 
 .exp-details__list {
     margin-top: 0;
+}
+
+.exp-detail {
+    margin-left: 1em;
 }
 
 .intro {
@@ -269,6 +283,17 @@ body{
 .folio__title {
     text-align: center;
     border-bottom: .1em solid $accent-color;
+}
+
+.link {
+    color: $text-primary-color;
+    text-decoration: none;
+    word-wrap: break-word;
+}
+
+.link:hover,
+.link:focus {
+    opacity: .7;
 }
 
 .project {

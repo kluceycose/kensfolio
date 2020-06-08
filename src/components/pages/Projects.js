@@ -35,7 +35,7 @@ function Projects() {
                     <ul className="folio-list project">
                         <li className="folio-item">Built from the ground up with React and SASS</li>
                         <li className="folio-item">node: react, react-dom, react-icons, gh-pages</li>
-                        <li className="folio-item">Please note I am a developer, not a designer!</li>
+                        <li className="folio-item">See the source code at <a href="https://github.com/kluceycose/kensfolio/" className="link">https://github.com/kluceycose/kensfolio/</a></li>
                     </ul>
                 </div>
             </div>
