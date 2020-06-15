@@ -224,6 +224,7 @@ body{
     border-radius: 10px;
     box-shadow: 3px 3px 10px 3px rgba(0,0,0,.35);
     transition: all 1s;
+    margin-bottom: 1em;
 }
 
 .fact-card:hover {
@@ -232,13 +233,6 @@ body{
     box-shadow: 6px 6px 13px 6px rgba(0,0,0,.35);
     transition: all 1s;
     
-}
-
-@keyframes rise {
-    100% {
-        transform: scale(1.01);
-        box-shadow: 6px 6px 13px 6px rgba(0,0,0,.35);
-    }
 }
 
 .fact-card :nth-child(3) {
