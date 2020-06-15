@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/kensfolio/static/css/main.ff7dea4c.chunk.css",
+    "main.css": "/kensfolio/static/css/main.08292052.chunk.css",
     "main.js": "/kensfolio/static/js/main.98590025.chunk.js",
     "main.js.map": "/kensfolio/static/js/main.98590025.chunk.js.map",
     "runtime-main.js": "/kensfolio/static/js/runtime-main.d0f4c2b1.js",
@@ -8,9 +8,9 @@
     "static/js/2.6a9d8067.chunk.js": "/kensfolio/static/js/2.6a9d8067.chunk.js",
     "static/js/2.6a9d8067.chunk.js.map": "/kensfolio/static/js/2.6a9d8067.chunk.js.map",
     "index.html": "/kensfolio/index.html",
-    "precache-manifest.15a692e10a7c538fa776b3a0cb4360eb.js": "/kensfolio/precache-manifest.15a692e10a7c538fa776b3a0cb4360eb.js",
+    "precache-manifest.333d1e2301d2a313f2cade357dc099d1.js": "/kensfolio/precache-manifest.333d1e2301d2a313f2cade357dc099d1.js",
     "service-worker.js": "/kensfolio/service-worker.js",
-    "static/css/main.ff7dea4c.chunk.css.map": "/kensfolio/static/css/main.ff7dea4c.chunk.css.map",
+    "static/css/main.08292052.chunk.css.map": "/kensfolio/static/css/main.08292052.chunk.css.map",
     "static/js/2.6a9d8067.chunk.js.LICENSE.txt": "/kensfolio/static/js/2.6a9d8067.chunk.js.LICENSE.txt",
     "static/media/books_img.jpg": "/kensfolio/static/media/books_img.31ac3872.jpg",
     "static/media/climbing-cropped.jpg": "/kensfolio/static/media/climbing-cropped.b6033f97.jpg",
@@ -21,7 +21,7 @@
   "entrypoints": [
     "static/js/runtime-main.d0f4c2b1.js",
     "static/js/2.6a9d8067.chunk.js",
-    "static/css/main.ff7dea4c.chunk.css",
+    "static/css/main.08292052.chunk.css",
     "static/js/main.98590025.chunk.js"
   ]
 }
