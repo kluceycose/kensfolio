@@ -1,23 +1,27 @@
 {
   "files": {
-    "main.css": "/kensfolio/static/css/main.a8b52c09.chunk.css",
-    "main.js": "/kensfolio/static/js/main.8393c058.chunk.js",
-    "main.js.map": "/kensfolio/static/js/main.8393c058.chunk.js.map",
+    "main.css": "/kensfolio/static/css/main.ff7dea4c.chunk.css",
+    "main.js": "/kensfolio/static/js/main.98590025.chunk.js",
+    "main.js.map": "/kensfolio/static/js/main.98590025.chunk.js.map",
     "runtime-main.js": "/kensfolio/static/js/runtime-main.d0f4c2b1.js",
     "runtime-main.js.map": "/kensfolio/static/js/runtime-main.d0f4c2b1.js.map",
-    "static/js/2.80e8ed81.chunk.js": "/kensfolio/static/js/2.80e8ed81.chunk.js",
-    "static/js/2.80e8ed81.chunk.js.map": "/kensfolio/static/js/2.80e8ed81.chunk.js.map",
+    "static/js/2.6a9d8067.chunk.js": "/kensfolio/static/js/2.6a9d8067.chunk.js",
+    "static/js/2.6a9d8067.chunk.js.map": "/kensfolio/static/js/2.6a9d8067.chunk.js.map",
     "index.html": "/kensfolio/index.html",
-    "precache-manifest.1bd6741471713502f2633578c8f28c7f.js": "/kensfolio/precache-manifest.1bd6741471713502f2633578c8f28c7f.js",
+    "precache-manifest.15a692e10a7c538fa776b3a0cb4360eb.js": "/kensfolio/precache-manifest.15a692e10a7c538fa776b3a0cb4360eb.js",
     "service-worker.js": "/kensfolio/service-worker.js",
-    "static/css/main.a8b52c09.chunk.css.map": "/kensfolio/static/css/main.a8b52c09.chunk.css.map",
-    "static/js/2.80e8ed81.chunk.js.LICENSE.txt": "/kensfolio/static/js/2.80e8ed81.chunk.js.LICENSE.txt",
+    "static/css/main.ff7dea4c.chunk.css.map": "/kensfolio/static/css/main.ff7dea4c.chunk.css.map",
+    "static/js/2.6a9d8067.chunk.js.LICENSE.txt": "/kensfolio/static/js/2.6a9d8067.chunk.js.LICENSE.txt",
+    "static/media/books_img.jpg": "/kensfolio/static/media/books_img.31ac3872.jpg",
+    "static/media/climbing-cropped.jpg": "/kensfolio/static/media/climbing-cropped.b6033f97.jpg",
+    "static/media/grand_canyon.jpg": "/kensfolio/static/media/grand_canyon.cf27b96b.jpg",
+    "static/media/iced_tea-cropped.jpg": "/kensfolio/static/media/iced_tea-cropped.98540cf6.jpg",
     "static/media/logo1.svg": "/kensfolio/static/media/logo1.d6f76ac6.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.d0f4c2b1.js",
-    "static/js/2.80e8ed81.chunk.js",
-    "static/css/main.a8b52c09.chunk.css",
-    "static/js/main.8393c058.chunk.js"
+    "static/js/2.6a9d8067.chunk.js",
+    "static/css/main.ff7dea4c.chunk.css",
+    "static/js/main.98590025.chunk.js"
   ]
 }
