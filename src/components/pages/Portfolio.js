@@ -4,8 +4,8 @@ import { Education, Experience, Projects, Skills } from "./";
 function Portfolio() {
 
     return <div className="">
-        <div className="section section-first section-even">
-            <h2 className="folio-title">Portfolio</h2>
+        <div className="section section-even">
+            <h2 className="folio-title container">Portfolio</h2>
         </div>
         <Skills />
         <Projects />

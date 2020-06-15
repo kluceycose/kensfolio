@@ -3,7 +3,7 @@ import React from 'react';
 function Projects() {
 
     return <div className="section-even section" id="project">
-        <div className="folio-section">
+        <div className="folio-section container">
             <h2 className="folio__title">Projects</h2>
             <div className="folio-section-row">
                 <div className="folio-group project-group">

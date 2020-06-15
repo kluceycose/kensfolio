@@ -20,9 +20,9 @@ function NavMenu(props){
             </button>
             <nav className="nav nav--visible">
                 <ul className="nav__list row">
-                    <li className="nav__item"><button onClick={()=> props.setShow("Intro")} className="nav__link">Intro</button></li>
+                    <li className="nav__item"><button onClick={()=> props.setShow("Home")} className="nav__link">Home</button></li>
                     <li className="nav__item"><button onClick={()=> props.setShow("Portfolio")} className="nav__link">Portfolio</button></li>
-                    <li className="nav__item"><button onClick={()=> props.setShow("About")} className="nav__link">About</button></li>
+                    {/* <li className="nav__item"><button onClick={()=> props.setShow("About")} className="nav__link">Accolades</button></li> */}
                 </ul>
             </nav>
         </div>

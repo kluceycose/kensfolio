@@ -3,7 +3,7 @@ import React from 'react';
 function Skills() {
 
     return <div className="section-odd section" id="project">
-        <div className="folio-section">
+        <div className="folio-section container">
             <h2 className="folio__title">Skills</h2>
             <div className="folio-section-row">
                 <div className="folio-group">

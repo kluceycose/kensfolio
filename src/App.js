@@ -1,12 +1,12 @@
 import React, { useState } from 'react';
 import WebFont from 'webfontloader';
 import { Header, Footer } from "./components/layouts";
-import { About, Banner, Intro, Portfolio } from "./components/pages";
+import { Banner, Home, Portfolio } from "./components/pages";
 import './components/styles/styles-background.css';
 import './components/styles/styles.scss';
 
 function App(){
-    const [show, setShow] = useState("Portfolio");
+    const [show, setShow] = useState("Home");
 
     WebFont.load({
         google: {
@@ -16,12 +16,8 @@ function App(){
 
     let content;
     switch(show){
-        case "About":
-            content = <About />;
-            break;
-
-        case "Intro":
-            content = <Intro />;
+        case "Home":
+            content = <Home />;
             break;
 
         case "Portfolio":
@@ -32,9 +28,9 @@ function App(){
             content = <h3>{show} isn't implemented yet.</h3>;
     }
 
-    return <div>
+    return <div className="app">
         <Header setShow={setShow.bind(this)}/>
-        <div class="row content container">
+        <div class="row content">
             <Banner />
             {content}
         </div>
